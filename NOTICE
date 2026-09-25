@@ -1,0 +1,33 @@
+CareerLogic -- attribution
+==========================
+
+CareerLogic is built to run alongside career-ops, an open-source job-search
+evaluation framework by Santiago Fernández de Valderrama (santifer).
+
+    career-ops: https://github.com/santifer/career-ops
+    Licensed MIT, Copyright (c) 2026 Santiago Fernández de Valderrama
+    Full licence text: licenses/career-ops-LICENSE.txt
+
+What is original, and what is adapted
+-------------------------------------
+- src/*.py is original work by Sashank Vemuri. career-ops contains no Python
+  at all, and these files import none of its modules. (Checked against
+  career-ops at the fork point and at current upstream: no 4-line block of
+  code is shared with any upstream file, in any language.)
+
+- src/render-pdfs.mjs adapts two functions from career-ops's generate-pdf.mjs:
+  normalizeTextForATS() (ATS-safe character normalisation) and convert()
+  (font-path rewriting, print settings, page count). They are condensed
+  rewrites rather than verbatim copies, but they follow the upstream
+  implementation closely, so they are distributed under career-ops's MIT
+  licence, whose full text is included in licenses/.
+
+Runtime relationship
+--------------------
+- The scan stage's optional portal pass (Stage 2 of src/manual-scan.py) runs
+  career-ops's scan.mjs, so it only works inside a career-ops checkout. Pass
+  --skip-stage2 to scan without it.
+- The pipeline reads and writes the on-disk layout career-ops establishes:
+  data/pipeline.md, data/jd_cache.json, data/applications.md, reports/,
+  batch/tracker-additions/ and output/. Those conventions shaped this tooling,
+  and the credit for them belongs upstream.

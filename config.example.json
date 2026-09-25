@@ -1,0 +1,105 @@
+{
+  "identity": {
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "phone": "+44 20 7946 0000",
+    "location": "London, United Kingdom",
+    "linkedin_display": "linkedin.com/in/your-handle"
+  },
+  "output": {
+    "file_prefix": "Jane_Doe"
+  },
+  "cover_letter": {
+    "experience_summary": "8+ years in payments and B2B SaaS product management, I bring a track record of turning complex requirements into products customers adopt.",
+    "signoff": "Sincerely",
+    "closing_line": "8+ years owning products end-to-end in payments and B2B SaaS"
+  },
+  "company_aliases": {
+    "examplecorp": [
+      "examplecorp",
+      "examplecorporation"
+    ]
+  },
+  "screening": {
+    "exclude_companies": [
+      "examplecorp"
+    ],
+    "exclude_title_language_patterns": [
+      "german speaker",
+      "french speaker"
+    ],
+    "exclude_title_patterns": [
+      "\\bjunior\\b",
+      "\\bintern\\b",
+      "\\bentry.?level\\b",
+      "\\bgraduate\\b(?!\\s+degree)",
+      "\\bsales\\b",
+      "\\bengineer\\b",
+      "\\bdesigner\\b",
+      "\\bscrum master\\b"
+    ],
+    "home_country": "united kingdom",
+    "home_country_city_tokens": [
+      "manchester",
+      "birmingham",
+      "leeds",
+      "glasgow",
+      "edinburgh"
+    ],
+    "home_allowed_city_tokens": [
+      "london"
+    ],
+    "us_work_authorized": false,
+    "us_citizen": false,
+    "scan_exclude_title_patterns": [
+      "\\bjunior\\b",
+      "\\bintern\\b",
+      "\\bentry.?level\\b",
+      "\\bgraduate\\b",
+      "\\bapprentice\\b",
+      "\\btrainee\\b",
+      "\\bengineer\\b",
+      "\\bdeveloper\\b",
+      "\\bdata scientist\\b",
+      "\\bqa\\b",
+      "\\btester\\b"
+    ],
+    "local_language_gate_markets": [
+      "germany",
+      "netherlands",
+      "poland",
+      "sweden",
+      "denmark",
+      "norway",
+      "finland",
+      "estonia",
+      "portugal",
+      "spain"
+    ]
+  },
+  "markets": [
+    {
+      "name": "United Kingdom",
+      "bucket": "A",
+      "location": "United Kingdom",
+      "jobs_titles": [
+        "Product Manager",
+        "Product Owner"
+      ],
+      "jobs_entries": 20
+    },
+    {
+      "name": "Germany",
+      "bucket": "B",
+      "location": "Germany",
+      "jobs_titles": [
+        "Product Manager"
+      ],
+      "jobs_entries": 10
+    }
+  ],
+  "scan": {
+    "apify_actor": "",
+    "cost_per_result_usd": 0.0005
+  }
+}

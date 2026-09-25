@@ -1,0 +1,130 @@
+{
+  "projects": {
+    "P1": {
+      "title": "Merchant Settlement Platform Modernisation",
+      "company": "Acme Payments",
+      "year": "2025",
+      "metrics": "40% faster settlement &nbsp;|&nbsp; 2M+ merchants &nbsp;|&nbsp; 99.9% uptime",
+      "desc": "<strong>Owned</strong> the roadmap and backlog for a settlement platform serving 2M+ merchants &mdash; replaced batch settlement with event-driven payouts, cutting settlement time by 40% while holding 99.9% uptime.",
+      "keywords": ["settlement", "payouts", "payments platform", "api", "merchant"],
+      "weight": 3,
+      "display": "Merchant Settlement Platform Modernisation (Acme Payments, 2025)",
+      "label": "payments platform delivery (Acme Payments, 2M+ merchants)",
+      "cl_bullets": [
+        "<strong>Owned</strong> the settlement platform roadmap for 2M+ merchants, cutting settlement time by 40%",
+        "<strong>Replaced</strong> nightly batch settlement with event-driven payouts at 99.9% uptime"
+      ]
+    },
+    "P2": {
+      "title": "Self-Serve Onboarding Redesign",
+      "company": "Example Corp",
+      "year": "2020",
+      "metrics": "25% higher activation &nbsp;|&nbsp; 30% fewer support tickets",
+      "desc": "<strong>Led</strong> discovery and delivery of a self-serve onboarding flow for B2B customers &mdash; lifted activation by 25% and reduced onboarding support tickets by 30%.",
+      "keywords": ["onboarding", "activation", "self-serve", "b2b", "saas"],
+      "weight": 3,
+      "display": "Self-Serve Onboarding Redesign (Example Corp, 2020)",
+      "label": "B2B onboarding and activation (Example Corp)",
+      "cl_bullets": [
+        "<strong>Lifted</strong> B2B activation by 25% with a self-serve onboarding redesign",
+        "<strong>Reduced</strong> onboarding support tickets by 30% through guided setup"
+      ]
+    }
+  },
+  "experience": [
+    {
+      "company": "ACME PAYMENTS &ndash; London",
+      "dates": "Jan 2022 &ndash; Present",
+      "current": true
+    },
+    {
+      "company": "EXAMPLE CORP &ndash; London",
+      "dates": "2017 &ndash; 2021",
+      "title": "Product Owner &ndash; Customer Onboarding",
+      "bullets": [
+        "<strong>Owned</strong> the onboarding backlog and roadmap for a B2B SaaS product",
+        "<strong>Lifted</strong> activation by <strong>25%</strong> through a self-serve onboarding redesign"
+      ]
+    }
+  ],
+  "current_role": {
+    "pm_title": "Product Manager",
+    "po_title": "Senior Product Owner",
+    "title_suffix": " | Payments Platform",
+    "default_bullets": [
+      "<strong>Own</strong> the roadmap and backlog for a merchant settlement platform serving <strong>2M+ merchants</strong>",
+      "<strong>Cut</strong> settlement time by <strong>40%</strong> by moving from batch to event-driven payouts",
+      "<strong>Partner</strong> with engineering, risk and finance to sequence delivery against quarterly OKRs"
+    ]
+  },
+  "competencies": [
+    "<span class=\"cl\">Product Management:</span> Roadmaps, Discovery, OKRs, Backlog Ownership",
+    "<span class=\"cl\">Delivery:</span> Scrum, Sprint Planning, Cross-functional Leadership",
+    "<span class=\"cl\">Tools:</span> Jira, Confluence, Figma, SQL"
+  ],
+  "cl_default_bullets": [
+    "<strong>Owned</strong> a payments platform serving 2M+ merchants, cutting settlement time by 40%",
+    "<strong>Lifted</strong> B2B activation by 25% with a self-serve onboarding redesign",
+    "<strong>Deliver</strong> through cross-functional teams against measurable OKRs"
+  ],
+  "generic_boost": {
+    "keywords": ["payments", "saas", "platform"],
+    "weight": 1
+  },
+  "eligibility": {
+    "home_market_pattern": "\\b(united kingdom|uk|england|london)\\b",
+    "us": "",
+    "abroad_sponsored": "I am eligible to relocate to {where} and understand the role includes visa sponsorship; my notice period is one month.",
+    "abroad_unsponsored": "I am based in London and would welcome relocating to {where} for this role; I am happy to discuss work-authorization arrangements early."
+  },
+  "education": [
+    "<strong>BSc Computer Science</strong>, Example University"
+  ],
+  "certifications": [
+    "<strong>Professional Scrum Product Owner (PSPO I)</strong>"
+  ],
+  "ba_competency": "<span class=\"cl\">Business Analysis:</span> Requirements Elicitation, User Stories, Process Mapping, BPMN",
+  "domains_not_held": ["insurance", "healthcare", "gaming"],
+  "scoring": {
+    "archetypes": {
+      "payments_platform": {
+        "keywords": ["payments", "settlement", "payouts", "merchant", "acquiring"],
+        "weight": 1.5
+      },
+      "b2b_saas": {
+        "keywords": ["b2b", "saas", "onboarding", "activation", "self-serve"],
+        "weight": 1.0
+      }
+    },
+    "domain_boost": ["payments", "fintech", "saas", "platform"],
+    "hard_gap_patterns": ["machine learning engineer", "phd required"],
+    "payment_rail_gap_patterns": ["\\bpci[- ]dss\\b", "card scheme certification"]
+  },
+  "evaluation": {
+    "archetype_labels": {
+      "payments_platform": "Payments Platform PM",
+      "b2b_saas": "B2B SaaS Product Manager"
+    },
+    "archetype_keywords": {
+      "payments_platform": ["payments", "settlement", "payouts", "merchant"],
+      "b2b_saas": ["b2b", "saas", "onboarding", "activation"]
+    },
+    "default_archetype": "payments_platform",
+    "gap_checks": [
+      ["ai/ml hands-on", ["machine learning model", "ml engineer", "train a model"],
+       "Gap. No hands-on ML engineering -- bridge via product-side AI feature work if raised."]
+    ],
+    "domain_scope": "Product Management (payments and B2B SaaS)",
+    "background_phrase": "payments-platform product management background",
+    "level_phrase": "Senior Product Manager level (8+ years, payments and B2B SaaS)",
+    "headline_outcomes": "40% faster settlement for 2M+ merchants, 25% higher B2B activation"
+  },
+  "positioning": {
+    "headline_title": "Senior Product Manager",
+    "summary_template": "Senior Product Manager with 8+ years in payments and B2B SaaS, combining {domain_desc}. Proven track record setting OKRs, owning roadmaps and shipping with cross-functional teams.",
+    "title_bar_suffix": "Payments & B2B SaaS Delivery",
+    "fallback_keywords": ["Product Management", "Roadmapping", "Stakeholder Management"],
+    "safe_keywords": ["roadmap", "backlog", "okrs", "api", "payments", "onboarding", "stakeholder management", "cross-functional"],
+    "default_projects": ["P1", "P2"]
+  }
+}

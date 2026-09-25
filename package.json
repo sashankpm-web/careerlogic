@@ -1,0 +1,13 @@
+{
+  "name": "careerlogic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rendering dependency for careerlogic (src/render-pdfs.mjs).",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "^1.58.1"
+  }
+}

@@ -1,0 +1,2 @@
+# Only the scan stage (src/manual-scan.py) needs a third-party package.
+apify-client>=3.0,<4

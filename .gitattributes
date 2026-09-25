@@ -1,0 +1,5 @@
+# Deterministic line endings regardless of the committer's OS / core.autocrlf.
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary

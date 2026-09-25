@@ -1,0 +1,20 @@
+# Your own settings -- never commit. Copy the .example.json files to create them.
+config.json
+profile.json
+
+# Secrets
+.env
+.env.*
+
+# Pipeline data and generated output
+data/
+output/
+reports/
+batch/
+
+# Caches
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+Thumbs.db
